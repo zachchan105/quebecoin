@@ -78,5 +78,5 @@ deploy:
     secure: wsOaZqUJIS6CIzvwwEWclw
   file: ${OUTDIR}/../quebecoin-$HOST.tar.gz
   on:
-    repo: quebecoinqbc/quebecoin
+    repo: QuebecoinQBC/quebecoin
 
