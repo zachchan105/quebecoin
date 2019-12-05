@@ -74,7 +74,7 @@ before_deploy: cd ${OUTDIR}/../ && tar -zcvf quebecoin-$HOST.tar.gz ${OUTDIR}
 deploy:
   skip_cleanup: false
   provider: releases
-  api_key: ${9efee2af8bc0cccb4f393c6bcc3944cae292302d}
+  api_key: ${172ca0a427519472e8fb40548791c3ee345bcb46}
     secure: 
   file: ${OUTDIR}/../quebecoin-$HOST.tar.gz
   on:
