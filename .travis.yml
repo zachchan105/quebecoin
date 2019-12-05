@@ -74,9 +74,8 @@ before_deploy: cd ${OUTDIR}/../ && tar -zcvf quebecoin-$HOST.tar.gz ${OUTDIR}
 deploy:
   skip_cleanup: false
   provider: releases
-  api_key: 
-    secure: 116nVpxpP733XuPKfYrrwDvyBZ/bo3dr8vZK2Zba77LNsKYQRlPVT/Vm+dSZZB2XXqaXh11ovJNiAnHzeou0vhWQlYxB0dRyeXpGUe4mGavPtzNeYGCIOaHEiD3LVe4HW+XJJuoODmNoEOmQ2uXGVrO766Yux5Y/Cvsxqgw6qpMzqPfn92KqihLFkC/lfqzDGsN0EcoP5Vs3dpIt4d/O+Phi6JvTmfVBCs8P+xqxxPivhbcQ02YkNHKpT/Rz1GpNO06+aQ8ZRj9JHGkgshW6kTt7uQ7anFAqRXUm7HrEOExmQ4mzr6JXHMx0ibarZw+QKfxSenFdSbUn/xsm4tqTnCN/YzsKWFIs4XtvEzTjb79XZQjs7TO9DC/qj1tuWC4GF6WZQx4FzvbAOO/NN67jgZOemcx73zr9v8OqR/thoveBbzfxuPXMaFC+x/40lwEGsnmf2SPb9GIwEdwTMLVu522QurVdN5s2fWJ7Evfrq7dLhReXUsvAHWEsneguYOg5tY/cIIJ6ErCo1MkJntmXBemOxkgciJhxt+rTpWs6p7rk5OoytD3HR2BytJBTotKi/FXbuLQv/Fd1P4V5rX6GhNXHSFRFYSxEQkKl9Xd99sTHdJ02Vkywg8gso+E04dSDOIZw7NlgfVU+PzLu0EaVojeTYwdvPl/UAZYhQHGayGM=
-  file: ${OUTDIR}/../quebecoin-$HOST.tar.gz
+  api_key: "LbqZ5aXY-Z9JkXrxCTaoag"
+    secure: 
   on:
     repo: QuebecoinQBC/quebecoin
 
