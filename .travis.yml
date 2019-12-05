@@ -72,7 +72,7 @@ after_script:
     - echo $TRAVIS_COMMIT_LOG
 before_deploy: cd ${OUTDIR}/../ && tar -zcvf quebecoin-$HOST.tar.gz ${OUTDIR}
 deploy:
-  skip_cleanup: false
+  skip_cleanup: true
   provider: releases
   api_key: "77fa16178269d51b8cd79778860ef9a685d6e3e3"
     secure: 
